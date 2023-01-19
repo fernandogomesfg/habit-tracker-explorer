@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -106,4 +108,12 @@ input {
 input:checked {
     background: #8B5CF6;
     border: 2px solid #A78BFA;
+}
+
+/* Responsividade */
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }
